@@ -1,0 +1,139 @@
+@startmindmap
++ Расчет
+++ Python ubuntu
++++ Синхронный запуск (последовательный запуск запросов подряд)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
++++ Асинхронный запуск (запуск каждого запроса в корутине)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
++++ Thread Pool (запуск каждого запроса в отдельном треде)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
++++ Process Pool (запуск каждого запроса в отдельном процессе)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++ Python alpine
++++ Синхронный запуск (последовательный запуск запросов подряд)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
++++ Асинхронный запуск (запуск каждого запроса в корутине)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
++++ Thread Pool (запуск каждого запроса в отдельном треде)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
++++ Process Pool (запуск каждого запроса в отдельном процессе)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++ PyPy
++++ Синхронный запуск (последовательный запуск запросов подряд)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
++++ Асинхронный запуск (запуск каждого запроса в корутине)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
++++ Thread Pool (запуск каждого запроса в отдельном треде)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
++++ Process Pool (запуск каждого запроса в отдельном процессе)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++ Python Nogil
++++ Синхронный запуск (последовательный запуск запросов подряд)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
++++ Асинхронный запуск (запуск каждого запроса в корутине)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
++++ Thread Pool (запуск каждого запроса в отдельном треде)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
++++ Process Pool (запуск каждого запроса в отдельном процессе)
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+++++ select bill from accounts where char_length(name) = 5
+-- Python ubuntu
+--- Синхронный запуск (последовательный запуск запросов подряд)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+--- Асинхронный запуск (запуск каждого запроса в корутине)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+--- Thread Pool (запуск каждого запроса в отдельном треде)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+--- Process Pool (запуск каждого запроса в отдельном процессе)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+-- Python alpine
+--- Синхронный запуск (последовательный запуск запросов подряд)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+--- Асинхронный запуск (запуск каждого запроса в корутине)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+--- Thread Pool (запуск каждого запроса в отдельном треде)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+--- Process Pool (запуск каждого запроса в отдельном процессе)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+-- PyPy
+--- Синхронный запуск (последовательный запуск запросов подряд)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+--- Асинхронный запуск (запуск каждого запроса в корутине)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+--- Thread Pool (запуск каждого запроса в отдельном треде)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+--- Process Pool (запуск каждого запроса в отдельном процессе)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+-- Python Nogil
+--- Синхронный запуск (последовательный запуск запросов подряд)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+--- Асинхронный запуск (запуск каждого запроса в корутине)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+--- Thread Pool (запуск каждого запроса в отдельном треде)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+--- Process Pool (запуск каждого запроса в отдельном процессе)
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+---- select sum(bill) from accounts where char_length(name) = 5
+@endmindmap
